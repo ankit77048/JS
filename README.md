@@ -1,2 +1,2 @@
-# JS
-Js with chai and code
+# Java Script
+Java Script with chai and code
