@@ -7,3 +7,13 @@ const obj4={...obj1,...obj2}
 console.log(obj4)
 console.log(Object.keys(obj3))
 console.log(Object.entries(obj3))
+
+const course={
+    coursename:"js",
+    price:"1000",
+    courseinstructor:"Alex",
+}
+
+// Destructure of object
+const {courseinstructor : instructor}=course
+console.log(instructor)
