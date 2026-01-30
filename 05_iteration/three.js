@@ -1,9 +1,9 @@
 // we print array by using fo rof loop
 
-// const arr=[1,2,3,4,5]
-// for(const ele of arr){
-//     console.log(ele)
-// }
+const arr=[1,2,3,4,5]
+for(const ele of arr){
+    console.log(ele)
+}
 
 // use of map
 
