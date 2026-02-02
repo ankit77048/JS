@@ -8,13 +8,22 @@ if(height=='' || height<0 || isNaN(height)){
     result.innerHTML="please enter the valid height"
     return;
 }
-else if(weight=='' || weight<0 || isNaN(weight)){
+if(weight=='' || weight<0 || isNaN(weight)){
     result.innerHTML="please enter the valid weigth"
     return;
 }
-else{
 const bmi=(weight/((height*height)/10000)).toFixed(2)
-result.innerHTML = `<span>${bmi}</span>`;
+let message=""
+if(bmi<=18.6) {
+    message="the person is underweight."
 }
+else if(bmi>18.6 && bmi<=24.9) 
+    {
+        message="person is in normal range."
+    }
+else {
+    message="person is overweight."
+    }
+    result.innerHTML = ` The result is based on person weight and height:  <br> BMI:- ${bmi}<br> ${message}`;
 });
 

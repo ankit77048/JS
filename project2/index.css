@@ -1,19 +1,29 @@
 body{
-    background-color: grey;
+    background-color: rgb(191, 241, 10);
 }
 button{
-    margin-left: 100px;
     border-radius: 5px;
-    border: 1px solid black;
-      padding: 6px 10px;
-      font-size: 15px;
-}
-.weightGuide{
-    margin-left: 50px;
+    border: 1px solid rgba(16, 9, 13, 0.868);
+    font-size: 40px;
+
 }
 #result{
-    color: rgb(16, 229, 65);
+    color:rgba(216, 7, 147, 0.882);
     font-size: 40px;
-    margin-left: 30px;
-
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+#weight,#height{
+    font-size: 40px;
+}
+label{
+    font-size: 40px;
+}
+legend{
+    text-align: center;
+}
+.weightGuide{
+    font-size: 20px;
 }
