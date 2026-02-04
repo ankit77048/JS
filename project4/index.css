@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.wrapper{
+    color: white;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+label{
+    font-size: 100px;
+}
+#id1{
+    margin-left: 200px;
+    height: 40px;
+    width: 300px;
+}
+button{
+    margin-left: 280px;
+    font-size: larger;
+}
+h1{
+    color: white;
+    text-align: center;
+}
