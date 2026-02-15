@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function init(){
+        let name="mozilla"
+        function displayname(){
+            console.log(name)
+        }
+        displayname()
+    }
+    init()
+
+    function makefun(){
+        let name="firefox"
+        function displayname(){
+            console.log(name)
+        }
+        return displayname;
+    }
+    const myfun=makefun()
+    console.log(myfun)
+</script>
+</html>
